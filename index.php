@@ -8,8 +8,8 @@
     var_dump($req);
   });
 
-  // $route->post('/yar/', function () {
-  //   echo "potato bisque";
-  // });
+  $router->post('/yar/', function ($req) {
+    var_dump($req);
+  });
 
   // $router->test();
