@@ -9,4 +9,3 @@
   ];
 
   return new \YarConstants\Constants($YAR_CONSTANTS);
-

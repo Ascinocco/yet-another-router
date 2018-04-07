@@ -1,14 +1,6 @@
 <?php
   namespace YarConstants;
 
-  $HTTP_VERBS = require 'HTTP_VERBS.php';
-  $DELIMITERS = require 'DELIMITERS.php';
-
-  $YAR_CONSTANTS = [
-    "HTTP_VERBS" => $HTTP_VERBS,
-    "DELIMITERS" => $DELIMITERS,
-  ];
-
   class Constants {
     private $CONSTANTS = null;
 
