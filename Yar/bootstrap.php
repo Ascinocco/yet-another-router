@@ -1,3 +1,3 @@
 <?php
-  require 'Constants/constants.php';
+  require 'config/constants.php';
   require 'Router/Router.php';
