@@ -8,5 +8,5 @@
     "DELIMITERS" => $DELIMITERS,
   ];
 
-  $constants = new \YarConstants\Constants($YAR_CONSTANTS);
+  return new \YarConstants\Constants($YAR_CONSTANTS);
 

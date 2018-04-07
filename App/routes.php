@@ -1,5 +1,5 @@
 <?php
-  $router = new \YarRouter\Router();
+  $router = $app->resolve('YarRouter');
 
   $router->get('/', function ($req) {
     echo "get";
