@@ -10,4 +10,8 @@
   
   $app->bind('YarRouter', $router);
 
+  $PDOConnection = require 'config/db.php';
+
+  $app->bind('YarPdo', $PDOConnection);
+
   return $app;
